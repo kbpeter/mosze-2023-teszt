@@ -5,7 +5,7 @@ constexpr int N_ELEMENTS = 100;
 int main()
 {
     int *b = new int[N_ELEMENTS]; //nem egyező változó név
-    std::cout << '1-100 ertekek duplazasa' //nincs ;
+    std::cout << '1-100 ertekek duplazasa'; //nincs ;
     for (int i = 0; i < N_ELEMENTS; i++) //nincs befjezve a for header
     {
         b[i] = i * 2;
