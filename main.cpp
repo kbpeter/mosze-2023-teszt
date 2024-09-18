@@ -22,5 +22,6 @@ int main()
     } //nincs ;
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
+    std::cout << "zabszalma"<< std::endl;
     return 0;
 }
